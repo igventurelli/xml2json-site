@@ -34,23 +34,15 @@ export default function Header() {
                 <li>
                   <Link
                     className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 py-1.5 px-3"
-                    href="/updates"
+                    href="https://github.com/igventurelli/xml2json" target="_blank"
                   >
-                    Updates
+                    GitHub
                   </Link>
                 </li>
                 <li>
                   <Link
                     className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 transition-colors py-1.5 px-3"
-                    href="/faq"
-                  >
-                    FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="text-gray-800 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-gray-800/30 transition-colors py-1.5 px-3"
-                    href="/contact"
+                    href="mailto:igventurelli@gmail.com"
                   >
                     Contact us
                   </Link>

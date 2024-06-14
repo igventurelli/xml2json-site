@@ -3,6 +3,7 @@ interface PageHeaderProps {
   children: React.ReactNode;
   title: string;
   description?: string;
+  innerDescription?: string;
 }
 
 export default function PageHeader({
@@ -10,6 +11,7 @@ export default function PageHeader({
   children,
   title,
   description,
+  innerDescription,
 }: PageHeaderProps) {
   return (
     <div className={`max-w-3xl mx-auto ${className || ""}`}>
@@ -32,6 +34,9 @@ export default function PageHeader({
           </h1>
           <p className="text-lg text-gray-700 dark:text-gray-400">
             {description}
+          </p>
+          <p className="text-lg text-gray-700 dark:text-gray-400">
+            {innerDescription}
           </p>
         </div>
       </div>
