@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Creative",
-  description: "Page description",
+  title: "XML2JSON",
+  description: "Convert XML responses into JSON with a simple HTTP request",
 };
 
 import PageHeader from "@/components/page-header";
