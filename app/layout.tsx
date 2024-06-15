@@ -1,7 +1,7 @@
-import "./css/style.css";
-
-import { Inter, Inter_Tight } from "next/font/google";
-import Theme from "./theme-provider";
+import "./css/style.css"
+import { GoogleAnalytics } from '@next/third-parties/google'
+import { Inter, Inter_Tight } from "next/font/google"
+import Theme from "./theme-provider"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,6 +39,7 @@ export default function RootLayout({
           </div>
         </Theme>
       </body>
+      <GoogleAnalytics gaId="G-S05KB5ZQWE" />
     </html>
   );
 }
